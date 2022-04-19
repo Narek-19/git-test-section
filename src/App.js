@@ -1,5 +1,7 @@
 import './App.css';
+import { Footer } from './Component/Footer';
 import {Header} from './Component/Header';
+import {Footer} from './Component/Footer'
 function App() {
   return (
     <div className="App">
@@ -8,6 +10,7 @@ function App() {
       <h2>Header options</h2>
       <h3>second Brancch</h3>
       <h4>Third Branch</h4>
+      <Footer/>
     </div>
   );
 }
